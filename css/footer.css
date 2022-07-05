@@ -1,0 +1,61 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 375px;
+  height: 47px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 0px 10px #ccc;
+}
+.footer .item {
+  flex: 1;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+.footer .item .ftIcon {
+  width: 21px;
+  height: 21px;
+  background-position: center;
+  background-size: 21px;
+}
+.footer .item .ftName {
+  font-size: 12px;
+}
+.footer .item .home {
+  background-image: url(../img/home2.png);
+}
+.footer .item .find {
+  background-image: url(../img/find1.png);
+}
+.footer .item .miquan {
+  background-image: url(../img/miquan1.png);
+}
+.footer .item .car {
+  background-image: url(../img/car1.png);
+}
+.footer .item .my {
+  background-image: url(../img/my.png);
+}
+.footer .item:hover .ftName {
+  color: #ff6700;
+}
+.footer .item:hover .home {
+  background-image: url(../img/home1.png);
+}
+.footer .item:hover .find {
+  background-image: url(../img/find2.png);
+}
+.footer .item:hover .miquan {
+  background-image: url(../img/miquan2.png);
+}
+.footer .item:hover .car {
+  background-image: url(../img/car2.png);
+}
+.footer .item:hover .my {
+  background-image: url(../img/my2.png);
+}

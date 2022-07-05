@@ -1,0 +1,51 @@
+.jx {
+  width: 375px;
+  margin-bottom: 50px;
+}
+.jx .jxad img {
+  width: 100%;
+}
+.jx .pdList {
+  width: 375px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.jx .pdList .pdItem {
+  width: 48%;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jx .pdList .pdItem img {
+  width: 100%;
+}
+.jx .pdList .pdItem .title {
+  margin-top: 5px;
+}
+.jx .pdList .pdItem .brief {
+  color: #757575;
+  font-size: 12px;
+}
+.jx .pdList .pdItem .price {
+  color: #ea625b;
+  font-size: 14px;
+}
+.jx .pdList .pdItem .buyBtn {
+  width: 104px;
+  height: 31px;
+  text-align: center;
+  line-height: 31px;
+  border-radius: 5px;
+  background-color: #ea625b;
+  color: #fff;
+}
+.jx .more {
+  width: 375px;
+  height: 52px;
+  text-align: center;
+  line-height: 52px;
+  color: #525252;
+  font-size: 14px;
+}
